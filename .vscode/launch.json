@@ -9,6 +9,13 @@
             "projectName": "hapi-fhir-jpaserver-starter",
             "args": "",
             "envFile": "${workspaceFolder}/.env"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Attach)",
+            "request": "attach",
+            "hostName": "localhost",
+            "port": 8000
         }
     ]
 }
